@@ -21,7 +21,10 @@ public class IRS {
 
     public void collectTaxes() {
         for (int i = 0; i < currentIndex; i++) {
-            TaxPayer.getName();
+            double deduction = payers[i].getStandardDeduction();
+            System.out.println("Tax payers deduction is: " + deduction);
+            payers[i].payTaxes();
+            System.out.println();
         }
     }
 

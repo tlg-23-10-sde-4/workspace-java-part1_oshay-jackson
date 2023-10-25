@@ -1,8 +1,6 @@
 package com.hr.personnel;
 
 
-import gov.irs.TaxPayer;
-
 import java.time.LocalDate;
 
 public class SalariedEmployee extends Employee {
@@ -46,5 +44,13 @@ public class SalariedEmployee extends Employee {
     @Override
     public void payTaxes() {
         System.out.println(getName() + " paid $" + getSalary() * SALARIED_TAX_RATE);
+    }
+
+    @Override
+    public double getStandardDeduction() {
+        return 0;
+    }
+    @Override
+    public void fileReturn() {
     }
 }

@@ -57,6 +57,11 @@ public abstract class Employee implements TaxPayer {
         return name;
     }
 
+    @Override
+    public double getStandardDeduction() {
+        return getStandardDeduction();
+    }
+
     public void setName(String name) {
         this.name = name;
     }

@@ -108,4 +108,14 @@ public class Department {
     public String toString() {
         return super.toString() + ", name=" + getName() + ", location=" + getLocation();
     }
+
+    public void getStandardDeduction() {
+        System.out.println(getName() + " has no standard deduction.");
+    }
+
+    public void fileReturn() {
+    }
+
+    public void payTaxes() {
+    }
 }

@@ -1,8 +1,6 @@
 package com.hr.personnel;
 
 
-import gov.irs.TaxPayer;
-
 import java.time.LocalDate;
 
 public class HourlyEmployee extends Employee {
@@ -52,4 +50,5 @@ public class HourlyEmployee extends Employee {
     public void payTaxes() {
         System.out.println(getName() + " paid $" + getRate() * getHours() * HOURLY_TAX_RATE);
     }
+    public void fileReturn() {}
 }

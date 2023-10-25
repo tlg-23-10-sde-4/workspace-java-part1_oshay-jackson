@@ -50,5 +50,17 @@ class HRClient {
         // Mandatory holiday break
         System.out.println("\nMandatory holiday break:");
         dept.holidayBreak();
+
+        // File return
+        System.out.println("\nFile return:");
+        dept.fileReturn();
+
+
+
+        // Pay taxes
+        System.out.println("\nPay taxes:");
+        dept.payTaxes();
+
+
     }
 }

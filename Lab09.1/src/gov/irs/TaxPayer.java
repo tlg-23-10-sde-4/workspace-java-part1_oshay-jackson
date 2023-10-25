@@ -8,8 +8,6 @@
 
 package gov.irs;
 
-import com.hr.personnel.Employee;
-
 /*
  * An argument can be made that the tax rate constants are better defined
  * on the classes that use them, and not all lumped in here.
@@ -21,15 +19,16 @@ import com.hr.personnel.Employee;
 public interface TaxPayer {
     public static final double HOURLY_TAX_RATE = 0.25;
     public static final double SALARIED_TAX_RATE = 0.30;
-    
-    public default void payTaxes() {
-        String name = Employee.getName();
-        System.out.println(name + " is paying taxes.");
+    public static final double DEFAULT_STANDARD_DEDUCTION = 7500.0;
+
+
+    void payTaxes();
+
+    default double getStandardDeduction() {
+        return DEFAULT_STANDARD_DEDUCTION;
     }
 
-
-    static String getName() {
-        return getName();
+    default void fileReturn() {
+        System.out.println("Returned via US mail");
     }
-
-}
+    }

@@ -8,7 +8,6 @@
 
 package com.hr.corp;
 
-import com.hr.personnel.Employee;
 import gov.irs.TaxPayer;
 
 /**
@@ -16,6 +15,8 @@ import gov.irs.TaxPayer;
  */
 public class Corporation implements /* Signs the Contract */ TaxPayer { // Corporation IS-A TaxPayer
     private String name;
+    private Corporation[] payers;
+    private int i;
 
     public Corporation(String name) {
         setName(name);
@@ -25,10 +26,13 @@ public class Corporation implements /* Signs the Contract */ TaxPayer { // Corpo
     public void payTaxes() { // implementing the TaxPayer method() payTaxes()
         System.out.println(getName() + " paid no taxes - we lobbied hard and it worked");
     }
-
+    public void fileReturn() {
+        for (int i = 0; i < payers.length; i++) {}
+        payers[i].fileReturn();
+        System.out.println(getName() + " has a file return");
+    }
 
     public String getName() {
-        String name = getName();
         return name;
     }
 
