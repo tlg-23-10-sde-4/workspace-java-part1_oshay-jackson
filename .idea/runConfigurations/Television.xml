@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Television" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="TelevisionClient" />
+    <module name="Lab_02.2" />
+    <option name="PROGRAM_PARAMETERS" value="&quot;clear &amp;&amp; cd $dir &amp;&amp; javac $fileName &amp;&amp; java $fileNameWithoutExt\n&quot;" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

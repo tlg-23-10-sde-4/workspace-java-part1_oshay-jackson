@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lab05.2/Lab05.2.iml" filepath="$PROJECT_DIR$/Lab05.2/Lab05.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lab07.1/Lab07.1.iml" filepath="$PROJECT_DIR$/../Lab07.1/Lab07.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab07.2/Lab07.2.iml" filepath="$PROJECT_DIR$/Lab07.2/Lab07.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab07.2-Client/Lab07.2-Client.iml" filepath="$PROJECT_DIR$/Lab07.2-Client/Lab07.2-Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab08.1/Lab08.1.iml" filepath="$PROJECT_DIR$/Lab08.1/Lab08.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab08.2/Lab08.2.iml" filepath="$PROJECT_DIR$/Lab08.2/Lab08.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab09.1/Lab09.1.iml" filepath="$PROJECT_DIR$/Lab09.1/Lab09.1.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/StudentWork/IntroJava/workspace/Lab10-Extra/Lab10-Extra.iml" filepath="$USER_HOME$/Desktop/StudentWork/IntroJava/workspace/Lab10-Extra/Lab10-Extra.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/StudentWork/IntroJava/workspace/Lab10.1-HR/Lab10.1-HR.iml" filepath="$USER_HOME$/Desktop/StudentWork/IntroJava/workspace/Lab10.1-HR/Lab10.1-HR.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/StudentWork/IntroJava/workspace/Lab10.1-Television/Lab10.1-Television.iml" filepath="$USER_HOME$/Desktop/StudentWork/IntroJava/workspace/Lab10.1-Television/Lab10.1-Television.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_01.1/Lab_01.1.iml" filepath="$PROJECT_DIR$/Lab_01.1/Lab_01.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_02.2/Lab_02.2.iml" filepath="$PROJECT_DIR$/Lab_02.2/Lab_02.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniLab05.1/MiniLab05.1.iml" filepath="$PROJECT_DIR$/MiniLab05.1/MiniLab05.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniLab08.1/MiniLab08.1.iml" filepath="$PROJECT_DIR$/MiniLab08.1/MiniLab08.1.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/StudentWork/IntroJava/workspace/Oshape/Oshape.iml" filepath="$USER_HOME$/Desktop/StudentWork/IntroJava/workspace/Oshape/Oshape.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScratchModule/ScratchModule.iml" filepath="$PROJECT_DIR$/ScratchModule/ScratchModule.iml" />
+    </modules>
+  </component>
+</project>
